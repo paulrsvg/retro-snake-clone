@@ -1,0 +1,33 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div { /*say you want lines between snake length etc. mess with these vals, keep in mind the 200x200 total grid for */
+  width: 18px;
+  height: 18px;
+  margin: 1px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.fruit {
+  background-color: purple;
+}
