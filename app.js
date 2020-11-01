@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentSnake = [2,1,0] // 2= head, 0 = tail, 1 = rest of body
   let direction = 1
   let score = 0
-  let speed = 0.9
+  let speed = 0.8
   let intervalTime = 0
   let interval = 0
   
